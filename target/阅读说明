@@ -1,0 +1,42 @@
+
+
+
+
+
+
+1)访问路径
+http://localhost:8081/ssmupload/scholastic/listAll
+
+
+2)使用技术框架
+spring + springMVC + mybatis(Mybatis-Generator) + tomcat + maven + layui 
+
+3)项目模块说明
+批量删除、导出Excel、添加、编辑四个模块。
+
+3.1）项目BUG说明
+https://www.layui.com/doc/modules/table.html#export
+
+导出Excel后创建时间和修改时间显示数据不对(直接用的layui)；
+编辑模块：图片没有回显、性别没有选中。
+
+4）今日头条
+https://www.toutiao.com/c/user/6207413939/#mid=6221726777
+
+5)实体类
+
+CREATE TABLE `person` (
+   `id` int(255) NOT NULL AUTO_INCREMENT,
+   `name` varchar(255) DEFAULT NULL,
+   `age` int(255) DEFAULT NULL,
+   `city` varchar(255) DEFAULT NULL,
+   PRIMARY KEY (`id`)
+ ) ENGINE=InnoDB AUTO_INCREMENT=277 DEFAULT CHARSET=utf8
+
+6）WeChat：NHNMAMTF
+
+
+
+
+
+
